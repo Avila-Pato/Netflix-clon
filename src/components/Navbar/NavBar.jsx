@@ -1,0 +1,39 @@
+import './NavBar.css'
+import logo from '../../assets/assets/logo.png'
+import search_icon from '../../assets/assets/search_icon.svg'
+import bell_icon from '../../assets/assets/bell_icon.svg'
+import profile_img from '../../assets/assets/profile_img.png'
+import caret_icon from '../../assets/assets/caret_icon.svg'
+
+function NavBar() {
+  return (
+    <div className="navbar">
+      <div className="navbar-left">
+        <img src={logo} alt="Netflix Logo"/>
+        <ul>
+          <li>Home</li>
+          <li>Tv Shows</li>
+          <li>Movies</li>
+          <li>Novedades Populares</li>
+          <li>Mi lista</li>
+          <li>Filtrar por Categorias</li>
+        </ul>
+      </div>
+      <div className="navbar-right">
+        <img src={search_icon} alt="Search Icon" className="icons"/>
+        <p>Niños</p>
+          <img src={bell_icon} alt="Bell Icon" className="icons"/>
+          <div className="navbar-profile">
+          <img src={profile_img} alt="" className="profile"/>
+          <img src={caret_icon} alt="" />
+          <div className="dropdown">
+            <p>Cerrar sesión de Netflix</p>
+          </div>
+
+          </div>
+      </div>
+    </div>
+  )
+}
+
+export default NavBar
