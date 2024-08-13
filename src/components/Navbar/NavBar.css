@@ -4,9 +4,10 @@
     display: flex;
     justify-content: space-between;
     position: fixed;
-    font-size: #e5e5e5;
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.8) 5%, 
+    font-size: #ffffff;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.8) 3%, 
     transparent);
+    z-index: 1000;
 }
 .navbar-left{
     display: flex;
@@ -24,11 +25,13 @@
 .navbar-left ul li{ 
     cursor: pointer;
 }
-.navbar-right{
+.navbar-right {
     display: flex;
     align-items: center;
     gap: 20px;
-}
+    color: #ffffff; /* Asegúrate de que el color sea visible */
+  }
+  
 .navbar-right .icons{
     width: 20px;
     cursor: pointer;
@@ -63,3 +66,10 @@
 .navbar-profile:hover .dropdown{
     display: block;
 }
+.nav-dark {
+    background-color: #141414;
+    z-index: 1; /* O un valor mayor si es necesario */
+    
+  }
+  
+  
