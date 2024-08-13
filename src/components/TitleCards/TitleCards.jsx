@@ -5,6 +5,7 @@ import { useRef } from 'react'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
+// eslint-disable-next-line react/prop-types
 const TitleCards = ({title, category}) => {
 
   const [apiData, setApiData] = useState([]);
