@@ -9,6 +9,7 @@
     transparent);
     z-index: 1000;
 }
+
 .navbar-left{
     display: flex;
     align-items: center;
