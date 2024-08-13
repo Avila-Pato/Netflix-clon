@@ -1,5 +1,5 @@
 import './Home.css'
-import NavBar from '../../components/NavBar/NavBar.jsx'
+import NavBar from '../../components/Navbar/NavBar'
 import hero_banner from '../../assets/assets/hero_banner.jpg'
 import hero_title from '../../assets/assets/hero_title.png'
 import play_icon from '../../assets/assets/play_icon.png'

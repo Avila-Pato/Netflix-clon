@@ -6,6 +6,7 @@ import profile_img from '../../assets/assets/profile_img.png'
 import caret_icon from '../../assets/assets/caret_icon.svg'
 import { useEffect, useRef } from 'react'
 
+
 function NavBar() {
   
   const navRef =  useRef()
